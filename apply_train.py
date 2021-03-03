@@ -74,14 +74,14 @@ if __name__ == '__main__':
     parent_parser.add_argument(
         '--checkpoint_path',
         type=str,
-        default='',
+        default='/train_checkpoints/',
         help='output path for checkpoints'
     )
 
     parent_parser.add_argument(
         '--log_path',
         type=str,
-        default='',
+        default='/logs/',
         help='output path for logging files'
     )
     
