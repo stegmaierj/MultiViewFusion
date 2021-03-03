@@ -75,7 +75,7 @@ if __name__ == '__main__':
         '--checkpoint_path',
         type=str,
         default='/train_checkpoints/',
-        help='output path for checkpoints'
+        help='output path for saving checkpoints'
     )
 
     parent_parser.add_argument(
