@@ -12,9 +12,9 @@ The parser arguments are explained in Python scripts apply_train.py, apply_test.
 Note that: the default network hyperparameters in apply_test.py should not be modified; otherwise, the models saved in the checkpoints cannot be loaded correctly.  
 
 ## Data Naming Scheme
-View images: *tag*_view_*angle*.tif   
-Ground-truth images: *tag*_groundtruth.tif  
-PSF: psf_*angle*.tif
+View images: *tag*\_view\_*angle*.tif   
+Ground-truth images: *tag*\_groundtruth.tif  
+PSF: psf\_*angle*.tif
 
 ## Quad-view Dataset
-The quad-view embryo dataset is generated using the Jave pipeline in multiview_simution.zip provided in Preibisch, S., Amat, F., Stamataki, E., Sarov, M., Singer, R. H., Myers, E., & Tomancak, P. (2014). Efficient Bayesian-based multiview deconvolution. Nature methods, 11(6), 645-648.
+The quad-view embryo dataset is generated using the Java project in multiview_simution.zip provided in Preibisch, S., Amat, F., Stamataki, E., Sarov, M., Singer, R. H., Myers, E., & Tomancak, P. (2014). Efficient Bayesian-based multiview deconvolution. Nature methods, 11(6), 645-648.
