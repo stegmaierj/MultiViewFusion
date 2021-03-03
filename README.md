@@ -7,9 +7,13 @@ PyTorch 1.3.1
 PyTorch-Lightning 0.6.0  
 
 ## Use Instruction
-Run the shell scripts apply_train.sh or apply_test.sh to start training or testing, respectively.  
+Run the shell scripts apply_train.sh or apply_test.sh to start training or testing, respectively.
+
 The parser arguments are explained in Python scripts apply_train.py, apply_test.py, models/cycleGAN_semi.py and models/cycleGAN_self.py.  
-Note that: the default network hyperparameters in the shell script apply_test.sh should not be modified; otherwise, the models saved in the checkpoints cannot be loaded correctly.  
+
+Note that: the default network hyperparameters in the shell script apply_test.sh should not be modified; otherwise, the models saved in the checkpoints cannot be loaded correctly.
+
+A set of pretrained models in the form of checkpoints for both data sets can be obtained from: https://rwth-aachen.sciebo.de/s/qYgrKrwyW5UDSyc
 
 ## Data Naming Scheme
 View images: *tag*\_view\_*angle*.tif   
